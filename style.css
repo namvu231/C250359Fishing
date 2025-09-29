@@ -170,6 +170,7 @@ nav ul li a:hover{
 
 /* -------------------------------footer------------ */
 footer ul{
+    margin-top: 30px;
     display: flex;
     gap: 30px;
     justify-content: space-around;
@@ -230,9 +231,84 @@ footer ul li p{
     line-height: 28px;
 
 }
-.about_concat span,p{
+.about_concat span,.about_tag{
     display: block;
     margin-left: 40px;
     line-height: 24px;
     font-style: 18px;
+}
+.about_concat.about_tag{
+    margin-bottom: 40px;
+}
+/* ---------------------------------product----------------------- */
+.product .product_body{
+    width: 80%;
+    height: 586px;
+    display: flex;
+    gap : 48px;
+}
+.image_product{
+    width: 430px;
+
+}
+.icon_concat{
+    width: 28px;
+    margin: 10px 5px ;
+
+}
+.image_product_iteam{
+    width: 148px;
+}
+.product_media{
+    border: 1px solid black;
+    width: 450px;
+    height: 586px;
+    transition: boxshadow 0.3 ease ;
+}
+.product_media:hover{
+   box-shadow: 4px -4px 5px 0px rgba(0,0,0,0.75);
+}
+.product_info .product_top_info{
+    margin: 30px 0;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.product_button_star{
+    display: inline;
+    width: 18px;
+}
+.product_button_nedan {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    color: black;
+}
+.product_button_nedan strong{
+   color: red;
+}
+.button_style{
+    border-radius: 4px ;
+    width: 90px;
+    height: 32px;
+    cursor: pointer;
+}
+.button_style:hover{
+    box-shadow: 1px -1px 1px 0px rgba(0,0,0,0.75);
+
+}
+.product_selec_container{
+    margin-top: 12px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 12px;
+
+}
+.product_selec_kado{
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
 }
