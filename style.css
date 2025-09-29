@@ -196,3 +196,43 @@ footer ul li p{
     align-items: center;
 }
 /* --------------------------product--------- */
+/* ========================================================about us ========================================*/
+.about_top{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+   
+}
+.about_logo{
+     width: 50%;
+}
+.about_info{
+    margin-top: 25px;
+    width: 40%;
+    line-height: 34px;
+    font-size: 18px;
+    margin-right:65px;
+}
+.about_info strong{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+}
+.about_concat h2{
+    margin-top: 45px;
+    font-size: 32px;
+    margin-left: 40px;
+}
+.about_bango{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-style: 18px;
+    line-height: 28px;
+
+}
+.about_concat span,p{
+    display: block;
+    margin-left: 40px;
+    line-height: 24px;
+    font-style: 18px;
+}
