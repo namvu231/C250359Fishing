@@ -191,7 +191,7 @@ footer ul li p{
     background-color: black;
     color: white;
     height: 65px;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,15 +202,15 @@ footer ul li p{
     display: flex;
     gap: 10px;
     justify-content: space-between;
-   
 }
 .about_logo{
+    margin-top: 12px;
      width: 50%;
 }
 .about_info{
     margin-top: 25px;
     width: 40%;
-    line-height: 34px;
+    line-height: 36px;
     font-size: 18px;
     margin-right:65px;
 }
@@ -243,7 +243,7 @@ footer ul li p{
 /* ---------------------------------product----------------------- */
 .product .product_body{
     width: 80%;
-    height: 586px;
+    height: 55S6px;
     display: flex;
     gap : 48px;
 }
@@ -257,7 +257,7 @@ footer ul li p{
 
 }
 .image_product_iteam{
-    width: 148px;
+    width: 128px;
 }
 .product_media{
     border: 1px solid black;
@@ -266,10 +266,10 @@ footer ul li p{
     transition: boxshadow 0.3 ease ;
 }
 .product_media:hover{
-   box-shadow: 4px -4px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 1px 0px rgba(0,0,0,0.75);
 }
 .product_info .product_top_info{
-    margin: 30px 0;
+    margin:0;
     color: black;
     font-size: 24px;
     font-weight: 400;
@@ -290,6 +290,7 @@ footer ul li p{
    color: red;
 }
 .button_style{
+   background: mediumaquamarine;
     border-radius: 4px ;
     width: 90px;
     height: 32px;
@@ -308,7 +309,48 @@ footer ul li p{
 
 }
 .product_selec_kado{
+    background: mediumaquamarine;
     width: 140px;
     height: 50px;
     border-radius: 8px;
+    font-size: 24px;
+    
+}
+.product_selec_kado:hover{
+    box-shadow: 1px 1px 1px 0 black;
+}
+/* -------------------------product-------------- */
+.hero{
+    color: black;
+}
+/*  ------------------- kokan------------*/
+.kokan {
+    margin: 20px 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.kokan_item{
+    width: 25%;
+}
+.kokan_item img{
+    width: 200px;
+}
+.kokan_item h2{
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.kokan_item p{
+    margin-top: 10px;
+    line-height: 28px;
+    font-size: 18px;
+}
+/* ------------------------------concat------------ */
+.mise{
+    width: 50%;
+    margin: 20px 40px;
+    border-radius: 12px 0 12px 0;
 }
